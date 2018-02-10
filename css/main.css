@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin:400i");
+* {
+  color: #fff;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #000; }
+
+h1, h2, h3, h4, h5, a {
+  text-shadow: 1px 1px #ccc;
+  color: #B6944C;
+  font-family: 'Cabin', sans-serif; }
+
+.navbar {
+  margin-bottom: 0;
+  border-right: 0;
+  background-color: #000;
+  padding: 1% 0;
+  font-size: 25px;
+  border-bottom: 2px solid #B6944C; }
+
+.navbar-brand {
+  float: left;
+  width: 190px;
+  height: 70px;
+  animation-delay: 1s;
+  animation-duration: 2s; }
+
+.navbar-inverse .navbar-nav li a {
+  color: #B6944C; }
+  .navbar-inverse .navbar-nav li a:focus, .navbar-inverse .navbar-nav li a:hover {
+    color: #eee;
+    text-shadow: 2px 2px #B6944C; }
+
+.fa {
+  margin: 0 auto;
+  padding: 5px;
+  font-size: 20px;
+  color: #d5d5d5; }
+  .fa:hover {
+    color: #B6944C;
+    text-decoration: none; }
+
+@media (max-width: 960px) {
+  .fa {
+    font-size: 18px;
+    padding: 2px; } }
+.carousel {
+  margin-top: 70px; }
+
+.mainPageSlides img {
+  margin-top: 70px;
+  width: 100%;
+  height: 600px;
+  max-height: 600px;
+  min-height: 300px;
+  margin: auto; }
+
+.peopleCarouselImg img {
+  width: auto;
+  text-align: center;
+  height: 600px;
+  max-height: 600px;
+  margin: auto; }
+
+.carousel-caption {
+  top: 0;
+  padding: 5%;
+  background-color: rgba(182, 148, 76, 0.5);
+  font-size: 45px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #222;
+  -webkit-border-bottom-right-radius: 1000px;
+  -webkit-border-bottom-left-radius: 1000px;
+  -moz-border-radius-bottomright: 1000px;
+  -moz-border-radius-bottomleft: 1000px;
+  border-bottom-right-radius: 1000px;
+  border-bottom-left-radius: 1000px; }
+  .carousel-caption p {
+    color: #eee; }
+
+.main-caption {
+  top: 0;
+  padding: 5%;
+  background-color: rgba(182, 148, 76, 0.5);
+  font-size: 45px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #222;
+  -webkit-border-bottom-right-radius: 1000px;
+  -webkit-border-bottom-left-radius: 1000px;
+  -moz-border-radius-bottomright: 1000px;
+  -moz-border-radius-bottomleft: 1000px;
+  border-bottom-right-radius: 1000px;
+  border-bottom-left-radius: 1000px; }
+  .main-caption p {
+    color: #eee; }
+
+.hs-overlay {
+  width: 400px;
+  height: 450px; }
+
+section {
+  margin: 150px 0; }
+
+.djBox {
+  position: relative;
+  margin: 40px auto;
+  border-radius: 4px;
+  overflow: hidden;
+  max-width: 300px;
+  border: 5px solid #eee;
+  max-height: 300px; }
+
+.djBox h3 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 100%;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s; }
+
+.djBox:hover h3 {
+  top: 10%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.djBox ul {
+  position: absolute;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-transform: translateY(50px);
+  -moz-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  transform: translateY(50px);
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s; }
+
+.djBox:hover ul {
+  -webkit-transform: translateY(-60px);
+  -moz-transform: translateY(-60px);
+  -ms-transform: translateY(-60px);
+  transform: translateY(-60px); }
+
+.djBox ul li {
+  list-style: none;
+  width: 100%;
+  box-sizing: border-box; }
+
+.djBox ul li a {
+  font-family: 'Cabin', sans-serif;
+  color: #eee;
+  font-size: 30px;
+  margin: 10px;
+  display: inline-block;
+  text-decoration: none;
+  text-shadow: 2px 2px #333; }
+
+.djBox ul li:hover {
+  background: rgba(200, 200, 200, 0.7);
+  color: #000;
+  text-decoration: none;
+  text-shadow: 1px 1px #eee; }
+
+.apartment-container {
+  margin: 0 auto;
+  position: relative;
+  height: 550px;
+  text-align: left;
+  background: url("https://res.cloudinary.com/apartmentlist/image/upload/s--HRoGG_hz--/t_web-base/c_fill,g_auto,h_1016,w_2400/c_scale,w_2400/v1/web/static/hero_living_room.jpg") no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+  border: 30px;
+  border-radius: 4px; }
+  .apartment-container .btn {
+    font-size: 1.4em;
+    padding: 12px 22px;
+    background: rgba(50, 50, 50, 0.5);
+    border: 4px solid #B6944C;
+    border-radius: 50%;
+    text-transform: uppercase; }
+  .apartment-container .btn:hover {
+    background: rgba(182, 148, 76, 0.5);
+    border: 4px solid #222;
+    text-shadow: 1px 1px #aaa; }
+
+.apartmans-caption {
+  top: 0;
+  margin: 0px 150px 150px;
+  padding: 5%;
+  background-color: rgba(20, 20, 20, 0.3);
+  font-size: 45px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #222;
+  -webkit-border-bottom-right-radius: 1000px;
+  -webkit-border-bottom-left-radius: 1000px;
+  -moz-border-radius-bottomright: 1000px;
+  -moz-border-radius-bottomleft: 1000px;
+  border-bottom-right-radius: 1000px;
+  border-bottom-left-radius: 1000px; }
+
+.inventar i {
+  margin: 10px;
+  font-size: 30px; }
+
+.map {
+  width: 100%;
+  max-height: 300px; }
+
+form {
+  max-width: 500px;
+  margin: 0 auto 50px;
+  font-family: 'Cabin', sans-serif;
+  font-size: 18px; }
+  form input, form textarea {
+    background-color: #000;
+    color: #fff;
+    border: 4px solid #eee;
+    width: 100%; }
+  form span {
+    color: #B6944C; }
+
+.contact-info-group label {
+  width: 50%;
+  padding-right: 10px;
+  float: left; }
+
+label {
+  display: block;
+  margin-bottom: 20px; }
+
+span {
+  display: block; }
+
+input:hover, textarea:hover {
+  border: 4px solid #B6944C; }
+
+footer {
+  width: 100%;
+  background-color: #000;
+  padding: 3%;
+  color: #fff; }
+
+/*# sourceMappingURL=main.css.map */

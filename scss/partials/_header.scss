@@ -1,0 +1,45 @@
+.navbar {
+  margin-bottom: 0;
+  border-right: 0;
+  background-color: #000;
+  padding: 1% 0;
+  font-size: 25px;
+  border-bottom: 2px solid $old-gold;
+
+}
+
+.navbar-brand {
+  float: left;
+  width: 190px;
+  height: 70px;
+  animation-delay: 1s;
+  animation-duration: 2s;
+}
+
+.navbar-inverse .navbar-nav {
+  li a {
+    color: $old-gold;
+    &:focus, &:hover {
+      color: #eee;
+      text-shadow: 2px 2px $old-gold;
+    }
+  }
+}
+
+.fa {
+  margin: 0 auto;
+  padding: 5px;
+  font-size: 20px;
+  color: #d5d5d5;
+  &:hover {
+    color: $old-gold;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 960px) {
+  .fa {
+    font-size: 18px;
+    padding: 2px;
+  }
+}
