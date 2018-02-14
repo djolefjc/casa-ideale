@@ -5,7 +5,9 @@
   padding: 1% 0;
   font-size: 25px;
   border-bottom: 2px solid $old-gold;
-
+  .icon-bar{
+    border-bottom: 2px solid $old-gold;
+  }
 }
 
 .navbar-brand {

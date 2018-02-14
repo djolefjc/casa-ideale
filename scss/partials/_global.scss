@@ -5,10 +5,18 @@
 }
 
 body {
-  background-color: #000;
+  background-color: #eee;
 }
+ hr {
+     display: block;
+     height: 20px;
+     border: 0;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, $old-gold, #f0f0f0);
+     margin: 1em 0;
+     padding: 0;
+   }
 
-h1, h2, h3, h4, h5, a {
+h1, h2, h3, h4, h5, a, p {
   text-shadow: 1px 1px #ccc;
   color: $old-gold;
   font-family: 'Cabin', sans-serif;
