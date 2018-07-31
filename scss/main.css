@@ -5,9 +5,17 @@
   padding: 0; }
 
 body {
-  background-color: #000; }
+  background-color: #eee; }
 
-h1, h2, h3, h4, h5, a {
+hr {
+  display: block;
+  height: 20px;
+  border: 0;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #B6944C, #f0f0f0);
+  margin: 1em 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, a, p {
   text-shadow: 1px 1px #ccc;
   color: #B6944C;
   font-family: 'Cabin', sans-serif; }
@@ -19,6 +27,8 @@ h1, h2, h3, h4, h5, a {
   padding: 1% 0;
   font-size: 25px;
   border-bottom: 2px solid #B6944C; }
+  .navbar .icon-bar {
+    border-bottom: 2px solid #B6944C; }
 
 .navbar-brand {
   float: left;
@@ -81,7 +91,7 @@ h1, h2, h3, h4, h5, a {
     color: #eee; }
 
 .main-caption {
-  top: 0;
+  top: 200;
   padding: 5%;
   background-color: rgba(182, 148, 76, 0.5);
   font-size: 45px;
@@ -101,11 +111,13 @@ h1, h2, h3, h4, h5, a {
   height: 450px; }
 
 section {
+  position: relative;
   margin: 150px 0; }
 
 .apartment-container {
   margin: 0 auto;
-  position: relative;
+  padding: 20px;
+  position: absolute;
   height: 550px;
   text-align: left;
   background: url("https://res.cloudinary.com/apartmentlist/image/upload/s--HRoGG_hz--/t_web-base/c_fill,g_auto,h_1016,w_2400/c_scale,w_2400/v1/web/static/hero_living_room.jpg") no-repeat;
@@ -119,7 +131,7 @@ section {
     padding: 12px 22px;
     background: rgba(50, 50, 50, 0.5);
     border: 4px solid #B6944C;
-    border-radius: 50%;
+    border-radius: 10%;
     text-transform: uppercase; }
   .apartment-container .btn:hover {
     background: rgba(182, 148, 76, 0.5);
@@ -142,6 +154,7 @@ section {
   border-bottom-left-radius: 1000px; }
 
 .inventar i {
+  color: #222;
   margin: 10px;
   font-size: 30px; }
 

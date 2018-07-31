@@ -1,29 +1,49 @@
-section
-{
-  margin: 150px 0;
-}
 .apartment-container {
-  margin: 0 auto;
   position: relative;
-  height: 550px;
-  text-align: left;
-  background: url("https://res.cloudinary.com/apartmentlist/image/upload/s--HRoGG_hz--/t_web-base/c_fill,g_auto,h_1016,w_2400/c_scale,w_2400/v1/web/static/hero_living_room.jpg") no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 50%;
-  background-size: cover;
-  border: 30px;
+  margin-bottom: 5%;
+  padding: 5%;
+  height: 200px;
   border-radius: 4px;
-  .btn {
-    font-size: 1.4em;
-    padding: 12px 22px;
-    background: rgba(50,50,50,.5);
-    border: 4px solid $old-gold;
-    border-radius: 50%;
-    text-transform: uppercase;
-  }
-  .btn:hover {
-    background: rgba(182,148,76,.5);
-    border: 4px solid #222;
-    text-shadow: 1px 1px #aaa;
-  }
+    img {
+      max-height: 200px;
+      max-width: 250px;
+    }
+    .banner-heading {
+      position: absolute;
+      background-color: rgba(20,20,20,.6);
+      top: 5%;
+      padding: 2%;
+      font-size: 3em;
+    }
+    .banner-decription {
+      position: absolute;
+      background-color: rgba(20,20,20,.6);
+      top: 40%;
+      padding: 2%;
+      font-size: 1.3em;
+      }
+    .btn {
+      position: absolute;
+      top: 55%;
+      padding: 5px;
+      right: 3%;
+      bottom: 15%;
+      font-size: 1.4em;
+      padding: 12px 22px;
+      background: rgb(50,50,50);
+      border: 2px solid $old-gold;
+      border-radius: 20% 0 20%;
+      text-transform: uppercase;
+    }
+    .btn:hover {
+      background: rgb(182,148,76);
+      border: 2px solid #222;
+      text-shadow: 1px 1px #aaa;
+      }
+    }
+
+  @media (max-width: 400px) {
+    section {
+      margin: 10px;
+    }
   }

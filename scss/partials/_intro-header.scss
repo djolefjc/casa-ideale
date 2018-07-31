@@ -12,7 +12,7 @@
 }
 
 .peopleCarouselImg img {
-  width: auto;
+  width: 0 auto;
   text-align: center;
   height: 600px;
   max-height: 600px;
@@ -22,7 +22,7 @@
   top: 0;
   padding: 5%;
   background-color:rgba(182,148,76,.5);
-  font-size: 45px;
+  font-size: 40px;
   text-transform: uppercase;
   text-shadow: 2px 2px #222;
 -webkit-border-bottom-right-radius: 1000px;
@@ -53,13 +53,19 @@ p {
 }
 }
 
-
 @media (max-width: 768px) {
   .carousel-caption {
+    font-size: 35px;
   // display: none;
   }
 }
 .hs-overlay{
   width: 400px;
 	height: 450px;
+}
+@media (max-width: 400px) {
+  .main-caption {
+    font-size: 25px;
+  }
+
 }
