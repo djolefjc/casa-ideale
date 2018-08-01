@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, a, p {
   margin-bottom: 0;
   border-right: 0;
   background-color: #000;
-  padding: 1% 0;
+  padding: 2% 0;
   font-size: 25px;
   border-bottom: 2px solid #B6944C; }
   .navbar .icon-bar {
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, a, p {
   margin: auto; }
 
 .peopleCarouselImg img {
-  width: auto;
+  width: 0 auto;
   text-align: center;
   height: 600px;
   max-height: 600px;
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, a, p {
   top: 0;
   padding: 5%;
   background-color: rgba(182, 148, 76, 0.5);
-  font-size: 45px;
+  font-size: 40px;
   text-transform: uppercase;
   text-shadow: 2px 2px #222;
   -webkit-border-bottom-right-radius: 1000px;
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, a, p {
     color: #eee; }
 
 .main-caption {
-  top: 200;
+  top: 0;
   padding: 5%;
   background-color: rgba(182, 148, 76, 0.5);
   font-size: 45px;
@@ -106,44 +106,63 @@ h1, h2, h3, h4, h5, a, p {
   .main-caption p {
     color: #eee; }
 
+@media (max-width: 768px) {
+  .carousel-caption {
+    font-size: 35px; } }
 .hs-overlay {
   width: 400px;
   height: 450px; }
 
-section {
-  position: relative;
-  margin: 150px 0; }
-
+@media (max-width: 400px) {
+  .main-caption {
+    font-size: 25px; } }
 .apartment-container {
-  margin: 0 auto;
-  padding: 20px;
-  position: absolute;
-  height: 550px;
-  text-align: left;
-  background: url("https://res.cloudinary.com/apartmentlist/image/upload/s--HRoGG_hz--/t_web-base/c_fill,g_auto,h_1016,w_2400/c_scale,w_2400/v1/web/static/hero_living_room.jpg") no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 50%;
-  background-size: cover;
-  border: 30px;
+  position: relative;
+  margin-bottom: 5%;
+  padding: 5%;
+  height: 200px;
   border-radius: 4px; }
+  .apartment-container img {
+    max-height: 200px;
+    max-width: 250px; }
+  .apartment-container .banner-heading {
+    position: absolute;
+    background-color: rgba(20, 20, 20, 0.6);
+    top: 5%;
+    padding: 2%;
+    font-size: 3em; }
+  .apartment-container .banner-decription {
+    position: absolute;
+    background-color: rgba(20, 20, 20, 0.6);
+    top: 40%;
+    padding: 2%;
+    font-size: 1.3em; }
   .apartment-container .btn {
+    position: absolute;
+    top: 55%;
+    padding: 5px;
+    right: 3%;
+    bottom: 15%;
     font-size: 1.4em;
     padding: 12px 22px;
-    background: rgba(50, 50, 50, 0.5);
-    border: 4px solid #B6944C;
-    border-radius: 10%;
+    background: #323232;
+    border: 2px solid #B6944C;
+    border-radius: 20% 0 20%;
     text-transform: uppercase; }
   .apartment-container .btn:hover {
-    background: rgba(182, 148, 76, 0.5);
-    border: 4px solid #222;
+    background: #b6944c;
+    border: 2px solid #222;
     text-shadow: 1px 1px #aaa; }
 
+@media (max-width: 400px) {
+  section {
+    margin: 10px; } }
 .apartmans-caption {
   top: 0;
-  margin: 0px 150px 150px;
+  margin: 10%;
   padding: 5%;
-  background-color: rgba(20, 20, 20, 0.3);
-  font-size: 45px;
+  background-color: rgba(20, 20, 20, 0.5);
+  font-size: 40px;
   text-transform: uppercase;
   text-shadow: 2px 2px #222;
   -webkit-border-bottom-right-radius: 1000px;

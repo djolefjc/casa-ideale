@@ -1,24 +1,22 @@
 .apartmans-caption {
-  top: 0;
-  margin:s 10%;
-  padding: 5%;
-  background-color:rgba(20,20,20,.5);
+  margin: 3%;
+  padding: 7%;
+  background-color:rgba(20,20,20,.4);
   font-size: 40px;
   text-transform: uppercase;
   text-shadow: 2px 2px #222;
--webkit-border-bottom-right-radius: 1000px;
--webkit-border-bottom-left-radius: 1000px;
--moz-border-radius-bottomright: 1000px;
--moz-border-radius-bottomleft: 1000px;
-border-bottom-right-radius: 1000px;
-border-bottom-left-radius: 1000px;
+  -webkit-border-bottom-right-radius: 1000px;
+  -webkit-border-bottom-left-radius: 1000px;
+  -moz-border-radius-bottomright: 1000px;
+  -moz-border-radius-bottomleft: 1000px;
+  border-bottom-right-radius: 1000px;
+  border-bottom-left-radius: 1000px;
 }
 .inventar i {
   color: #222;
   margin: 10px;
   font-size: 30px;
 }
-
 .map {
   width: 100%;
   max-height: 300px;
